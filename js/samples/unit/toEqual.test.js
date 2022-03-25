@@ -13,6 +13,6 @@ describe('toBe Unit Test Suites', () => {
     })
 
     it('should not return 6', () => {
-        expect(makeSum(2, 3)).not.toEqual(4)
+        expect(makeSum(2, 3)).not.toEqual(6)
     })
 })
